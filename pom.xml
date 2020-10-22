@@ -63,9 +63,6 @@
                     <schemaDirectory>
                         ${project.basedir}/src/main/resources/
                     </schemaDirectory>
-                    <bindingDirectory>
-                        ${project.basedir}/src/main/java
-                    </bindingDirectory>
                 </configuration>
             </plugin>
 		</plugins>

@@ -1,0 +1,9 @@
+dev\profun\soap\example\samples\GetResponse.class
+dev\profun\soap\example\samples\package-info.class
+dev\profun\soap\example\samples\ObjectFactory.class
+dev\profun\soap\example\samples\Answer.class
+dev\profun\soap\example\services\AnswerService.class
+dev\profun\soap\example\configs\WebServiceConfig.class
+dev\profun\soap\example\samples\GetRequest.class
+dev\profun\soap\example\endpoints\AnswerEndpoint.class
+dev\profun\soap\example\SoapExampleApplication.class

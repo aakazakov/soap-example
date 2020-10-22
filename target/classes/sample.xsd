@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
-	targetNamespace="http://profun.dev/sample" 
-	xmlns:tns="http://profun.dev/sample"
+	targetNamespace="http://profun.dev/soap/example/samples" 
+	xmlns:tns="http://profun.dev/soap/example/samples"
 	elementFormDefault="qualified">
 	
 	<element name="getRequest">
