@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://profun.dev/soap/example/samples" 
+	xmlns:tns="http://profun.dev/soap/example/samples"
+	elementFormDefault="qualified">
+	
+	<element name="getRequest">
+        <complexType>
+            <sequence>
+                <element name="value" type="string"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="getResponse">
+        <complexType>
+            <sequence>
+                <element name="answer" type="tns:answer"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="answer">
+        <sequence>
+            <element name="text" type="string"/>
+        </sequence>
+    </complexType>
+</schema>
